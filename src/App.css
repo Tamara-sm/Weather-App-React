@@ -1,6 +1,21 @@
 body {
   font-family: "Quicksand", sans-serif;
 }
+.Container {
+  position: relative;
+  left: 17%;
+  margin: 60px;
+  padding: 0;
+  width: 427px;
+  height: 565px;
+}
+.Box {
+  background-image: linear-gradient(to bottom, #f47990, #e17ba1, #ba82c5);
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 12px 12px 2px 1px rgba(151, 151, 160, 0.2);
+}
 .City {
   color: #f9fbff;
   font-size: 35px;
@@ -17,7 +32,7 @@ body {
 }
 .temp {
   position: absolute;
-  left: 96px;
+  left: 93px;
   top: 18pc;
   color: white;
   display: flex;
@@ -30,22 +45,6 @@ body {
 .unit {
   font-size: 15px;
   font-weight: bold;
-}
-.Container {
-  position: relative;
-  left: 17%;
-  margin: 60px;
-  padding: 0;
-  width: 427px;
-  height: 619px;
-}
-.Box {
-  position: relative;
-  background-image: linear-gradient(to bottom, #f47990, #e17ba1, #ba82c5);
-  border-radius: 20px;
-  overflow: hidden;
-  border: none;
-  box-shadow: 12px 12px 2px 1px rgba(151, 151, 160, 0.2);
 }
 .Humiditydata {
   font-weight: bold;
@@ -64,7 +63,7 @@ body {
   margin: 20px;
   text-align: center;
   position: absolute;
-  top: 11pc;
+  top: 12pc;
   left: -2pc;
   font-size: 25px;
   color: #f9fbff;
@@ -73,7 +72,7 @@ body {
 .description {
   position: absolute;
   left: 40px;
-  bottom: 302px;
+  bottom: 237px;
   font-size: 19px;
   color: #f9fbff;
   text-transform: capitalize;
@@ -98,11 +97,11 @@ body {
   width: 200px;
   position: absolute;
   left: -7px;
-  bottom: 226px;
+  bottom: 178px;
 }
 .Forecastblock {
   position: absolute;
-  bottom: -21px;
+  bottom: -8px;
   left: -108px;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 6px;
