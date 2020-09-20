@@ -21,7 +21,7 @@ export default function Tempinfo(props) {
       <div className="WeatherTemperature">
         <div className="temp">
           <span className="degree">{Math.round(props.celsius)}</span>
-          <span className="degree">
+          <span className="unit">
             <a href="/" onClick={showFahrenheit}>
               °C |
             </a>{" "}
@@ -35,7 +35,7 @@ export default function Tempinfo(props) {
       <div className="WeatherTemperature">
         <div className="temp">
           <span className="degree">{Math.round(fahrenheit())}</span>
-          <span className="degree">
+          <span className="unit">
             <a href="/" onClick={showCelsius}>
               °C
             </a>{" "}
