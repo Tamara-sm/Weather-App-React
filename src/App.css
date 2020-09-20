@@ -47,6 +47,9 @@ body {
   border: none;
   box-shadow: 12px 12px 2px 1px rgba(151, 151, 160, 0.2);
 }
+.Humiditydata {
+  font-weight: bold;
+}
 .WeatherTemperature {
   text-align: center;
   position: relative;
