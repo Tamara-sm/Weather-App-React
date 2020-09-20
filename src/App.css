@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Quicksand", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.City {
+  color: #f9fbff;
+  font-size: 35px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.current-temperature {
+  font-size: 50px;
+  color: white;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.temp {
+  font-size: 20px;
+  position: relative;
+  left: -20px;
+  top: 51px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Container {
+  position: relative;
+  left: 17%;
+  margin: 60px;
+  padding: 0;
+  width: 427px;
+  height: 619px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Box {
+  position: relative;
+  background-image: linear-gradient(to bottom, #f47990, #e17ba1, #ba82c5);
+  border-radius: 20px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 12px 12px 2px 1px rgba(151, 151, 160, 0.2);
+}
+.WeatherTemperature {
+  text-align: center;
+  position: relative;
+  left: -28px;
+  top: -228px;
+}
+.Current-city {
+  text-align: center;
+  color: white;
+}
+.days {
+  margin: 20px;
+  text-align: center;
+  position: relative;
+  top: 7pc;
+  left: -7pc;
+  font-size: 29px;
+  color: #f9fbff;
+  list-style-type: none;
+}
+.description {
+  position: relative;
+  left: 141px;
+  bottom: 57px;
+  font-size: 19px;
+  color: #f9fbff;
+  text-transform: capitalize;
+}
+.emoji {
+  color: aquamarine;
+  position: absolute;
+  top: 67px;
+  left: -89px;
+}
+.wind,
+.humidity {
+  list-style-type: none;
+  color: #f9fbff;
+  position: relative;
+  left: 122px;
+  bottom: -4pc;
+}
+.form-group {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 200px;
+  position: relative;
+  left: 20px;
+  bottom: 185px;
+}
+.Forecastblock {
+  align-self: baseline;
+  align-self: center;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  display: flex;
+  overflow: hidden;
+  width: 350px;
 }
