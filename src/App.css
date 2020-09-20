@@ -16,16 +16,21 @@ body {
   color: white;
 }
 .temp {
-  font-size: 30px;
-  position: relative;
-  left: -50px;
-  top: 51px;
+  position: absolute;
+  left: 96px;
+  top: 18pc;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.degree {
+  font-size: 55px;
+}
+.unit {
+  font-size: 15px;
+  font-weight: bold;
+}
 .Container {
   position: relative;
   left: 17%;
@@ -55,17 +60,17 @@ body {
 .days {
   margin: 20px;
   text-align: center;
-  position: relative;
-  top: 7pc;
-  left: -7pc;
-  font-size: 29px;
+  position: absolute;
+  top: 11pc;
+  left: -2pc;
+  font-size: 25px;
   color: #f9fbff;
   list-style-type: none;
 }
 .description {
-  position: relative;
-  left: 141px;
-  bottom: 57px;
+  position: absolute;
+  left: 40px;
+  bottom: 302px;
   font-size: 19px;
   color: #f9fbff;
   text-transform: capitalize;

@@ -39,7 +39,9 @@ export default function CurrentDate(props) {
   }
   return (
     <div className="date">
-      {hours}:{minutes},{day},{month},{year}
+      {hours}:{minutes}
+      <br />
+      {day}, {month}, {year}
     </div>
   );
 }
