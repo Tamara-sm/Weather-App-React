@@ -10,7 +10,7 @@ body {
   height: 565px;
 }
 .Box {
-  background-image: linear-gradient(to bottom, #f37cef, #bc8ff6, #6952fb);
+  background-image: linear-gradient(to bottom, #ed7373, #e3667f, #d04d96);
   border-radius: 20px;
   overflow: hidden;
   border: none;
