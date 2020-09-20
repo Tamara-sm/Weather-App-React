@@ -22,10 +22,10 @@ export default function Tempinfo(props) {
         <div className="temp">
           <span className="degree">{Math.round(props.celsius)}</span>
           <span className="unit">
+            °C |
             <a href="/" onClick={showFahrenheit}>
-              °C |
-            </a>{" "}
-            °F
+              °F
+            </a>
           </span>
         </div>
       </div>
